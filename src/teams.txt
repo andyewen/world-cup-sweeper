@@ -1,0 +1,39 @@
+Qatar | QAT | QA
+Ecuador | ECU | EC
+Senegal | SEN | SN
+Netherlands | NED | NL
+
+England | ENG | gb-eng
+Iran | IRN | IR
+USA | USA | US
+Wales | WAL | gb-wls
+
+Argentina | ARG | AR
+Saudi Arabia | KSA | SA
+Mexico | MEX | MX
+Poland | POL | PL
+
+France | FRA | FR
+Australia | AUS | AU
+Denmark | DEN | DK
+Tunisia | TUN | TN
+
+Spain | ESP | ES
+Costa Rica | CRC | CR
+Germany | GER | DE
+Japan | JPN | JP
+
+Belgium | BEL | BE
+Canada | CAN | CN
+Morocco | MAR | MA
+Croatia | CRO | HR
+
+Brazil | BRA | BR
+Serbia | SRB | RS
+Switzerland | SUI | CH
+Cameroon | CMR | CM
+
+Portugal | POR | PT
+Ghana | GHA | GH
+Uruguay | URU | UY
+South Korea | KOR | KR
