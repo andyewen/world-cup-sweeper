@@ -116,7 +116,7 @@ import TeamBadge from "./components/TeamBadge.vue";
 
 import { dateString, pad2, product } from "./utils.js";
 
-import matches from "./assets/matches.json";
+// import matches from "./assets/matches.json";
 
 function Person(name, teams) {
   this.name = name;
@@ -245,8 +245,8 @@ export default {
   },
   methods: {
     async fetch_matches() {
-      // const response = await fetch('https://worldcupjson.net/matches');
-      // const matches = await response.json();
+      const response = await fetch('https://worldcupjson.net/matches');
+      const matches = await response.json();
       this.load_matches(matches);
     },
     load_matches: function (matches) {
