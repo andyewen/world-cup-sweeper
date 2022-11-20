@@ -245,7 +245,7 @@ export default {
   },
   methods: {
     async fetch_matches() {
-      const response = await fetch('https://worldcupjson.net/matches');
+      const response = await fetch("https://worldcupjson.net/matches");
       const matches = await response.json();
       this.load_matches(matches);
     },
@@ -705,6 +705,7 @@ body {
   background-color: #111;
   font-family: sans-serif;
   color: #ccc;
+  touch-action: manipulation;
 }
 
 .container {
