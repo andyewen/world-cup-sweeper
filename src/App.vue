@@ -648,6 +648,7 @@ export default {
         background-color: #111;
         font-family: sans-serif;
         color: #ccc;
+        touch-action: manipulation;
     }
 
     .container {
