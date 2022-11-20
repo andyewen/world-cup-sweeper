@@ -204,18 +204,18 @@ export default {
     ];
 
     var people = [
-      new Person("Andrew C.", ["SEN", "CRC"]),
+      // new Person("Andrew C.", ["SEN", "CRC"]),
       new Person("Andrew E.", ["CRO", "POL"]),
       new Person("Anna S.", ["BRA", "ECU"]),
       new Person("Callum E.", ["GER", "TUN"]),
       new Person("David H.", ["USA", "JPN"]),
       new Person("Ewan P.", ["DEN", "CMR"]),
-      new Person("Greig K.", ["FRA", "SRB"]),
+      // new Person("Greig K.", ["FRA", "SRB"]),
       new Person("John M.", ["POR", "QAT"]),
       new Person("Michael C.", ["ESP", "AUS"]),
       new Person("Patrick G.", ["BEL", "MAR"]),
       new Person("Peder R.", ["NED", "KOR"]),
-      new Person("Ross B.", ["URU", "GHA"]),
+      // new Person("Ross B.", ["URU", "GHA"]),
       new Person("Ryan S.", ["ARG", "WAL"]),
       new Person("Sam W.", ["MEX", "CAN"]),
       new Person("Scott B.", ["SUI", "IRN"]),
