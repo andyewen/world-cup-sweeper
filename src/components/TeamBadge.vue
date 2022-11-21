@@ -36,7 +36,7 @@ const fifa_to_iso = {
   GER: "de",
   JPN: "jp",
   BEL: "be",
-  CAN: "cn",
+  CAN: "ca",
   MAR: "ma",
   CRO: "hr",
   BRA: "br",
