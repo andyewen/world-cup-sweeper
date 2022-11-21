@@ -90,6 +90,10 @@
                     :team_knocked_out="team_knocked_out" :loaded_matches="loaded_matches"/>
 
         <p><strong>Good luck!</strong> 🤑</p>
+        <p class="credits">
+            Made by Andrew Ewen 
+            <a href="https://github.com/andyewen/world-cup-sweeper" class="source-link">[source]</a>
+        </p>
     </div>
 </template>
 
@@ -649,11 +653,21 @@ export default {
         font-family: sans-serif;
         color: #ccc;
     }
-
     .container {
         max-width: 900px;
         margin: 0 auto;
     }
+
+    a:link {
+        color: #80d0ff;
+    }
+    a:visited {
+        color: #39647d;
+    }
+    a:hover {
+        color: #b8e5ff;
+    }
+
     .match-day-selector .date {
         display: inline-block;
         text-align: center;
@@ -837,5 +851,12 @@ export default {
     }
     .team.knocked-out .flag {
         filter: brightness(25%)
+    }
+
+    .credits {
+        font-size: 13.3333px;
+    }
+    .credits a {
+        font-family: monospace;
     }
 </style>
