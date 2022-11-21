@@ -2,7 +2,7 @@
   <div
     class="match"
     :class="{
-      'in-progress': match.status == 'in progress',
+      'in-progress': match.status == 'in_progress',
       completed: match.status == 'completed',
     }"
   >
@@ -74,7 +74,7 @@ export default {
         return false;
       }
       return (
-        this.match.status == "in progress" || this.match.status == "completed"
+        this.match.status == "in_progress" || this.match.status == "completed"
       );
     },
     show_penalties: function () {
