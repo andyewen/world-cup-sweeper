@@ -218,7 +218,7 @@ export default {
       new Person("John M.", ["POR", "QAT"]),
       new Person("Michael C.", ["ESP", "AUS"]),
       new Person("Patrick G.", ["BEL", "MAR"]),
-      new Person("Peder R.", ["NED", "KOR"]),
+      // new Person("Peder R.", ["NED", "KOR"]),
       // new Person("Ross B.", ["URU", "GHA"]),
       new Person("Ryan S.", ["ARG", "WAL"]),
       new Person("Sam W.", ["MEX", "CAN"]),
