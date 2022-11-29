@@ -24,7 +24,7 @@ Germany | GER | DE
 Japan | JPN | JP
 
 Belgium | BEL | BE
-Canada | CAN | CN
+Canada | CAN | CA
 Morocco | MAR | MA
 Croatia | CRO | HR
 
