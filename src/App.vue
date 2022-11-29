@@ -226,11 +226,14 @@ export default {
       new Person("Thomas H.", ["ENG", "KSA"]),
     ];
 
+    const prize_amounts = [80, 30, 10];
+
     var today = dateString(new Date());
 
     return {
       teams: teams,
       people: people,
+      prize_amounts: prize_amounts,
       group_match_pivot: null, // new Date('2018-06-28T22:00Z'),
       matches: null,
       today: today,
@@ -393,14 +396,14 @@ export default {
             if (!b_knocked_out) return 1;
           });
 
-        var prize_amounts = [40, 10, 5];
+        
         var final_place = 4;
         var prize = 0;
         if (self.tournament_complete) {
           for (var i = 0; i < self.top_three_teams.length; i++) {
             if (person.teams.indexOf(self.top_three_teams[i]) >= 0) {
               final_place = Math.min(final_place, i + 1);
-              prize += prize_amounts[i];
+              prize += this.prize_amounts[i];
             }
           }
         }
