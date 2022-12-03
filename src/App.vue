@@ -107,7 +107,7 @@
 
     <p><strong>Good luck!</strong> 🤑</p>
     <p class="credits">
-      Made by Andrew Ewen 
+      Made by Andrew Ewen
       <a href="https://github.com/andyewen/world-cup-sweeper" class="source-link">[source]</a>
     </p>
   </div>
@@ -211,17 +211,17 @@ export default {
       // new Person("Andrew C.", ["SEN", "CRC"]),
       new Person("Andrew E.", ["CRO", "POL"]),
       new Person("Anna S.", ["BRA", "ECU"]),
-      new Person("Callum E.", ["GER", "TUN"]),
+      new Person("Callum E.", ["GER", "TUN", "KOR"]),
       new Person("David H.", ["USA", "JPN"]),
-      new Person("Ewan P.", ["DEN", "CMR"]),
+      new Person("Ewan P.", ["DEN", "CMR", "NED"]),
       // new Person("Greig K.", ["FRA", "SRB"]),
       new Person("John M.", ["POR", "QAT"]),
       new Person("Michael C.", ["ESP", "AUS"]),
-      new Person("Patrick G.", ["BEL", "MAR"]),
+      new Person("Patrick G.", ["BEL", "MAR", "FRA"]),
       // new Person("Peder R.", ["NED", "KOR"]),
       // new Person("Ross B.", ["URU", "GHA"]),
       new Person("Ryan S.", ["ARG", "WAL"]),
-      new Person("Sam W.", ["MEX", "CAN"]),
+      new Person("Sam W.", ["MEX", "CAN", "SEN"]),
       new Person("Scott B.", ["SUI", "IRN"]),
       new Person("Thomas H.", ["ENG", "KSA"]),
     ];
@@ -396,7 +396,7 @@ export default {
             if (!b_knocked_out) return 1;
           });
 
-        
+
         var final_place = 4;
         var prize = 0;
         if (self.tournament_complete) {
