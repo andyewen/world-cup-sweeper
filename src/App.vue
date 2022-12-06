@@ -631,6 +631,7 @@ export default {
       self.knockout_matches.forEach(function (m) {
         // Skip non completed matches.
         if (m.status != "completed") return;
+        if (!m.winner_code) return;
 
         if (m.winner_code == m.home_team.country) {
           team_knocked_out[m.away_team.country] = true;
