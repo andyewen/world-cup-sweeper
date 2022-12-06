@@ -108,7 +108,12 @@
     <p><strong>Good luck!</strong> 🤑</p>
     <p class="credits">
       Made by Andrew Ewen
-      <a href="https://github.com/andyewen/world-cup-sweeper" class="source-link">[source]</a>
+      <a
+        href="https://github.com/andyewen/world-cup-sweeper"
+        class="source-link"
+      >
+        [source]
+      </a>
     </p>
   </div>
 </template>
@@ -395,7 +400,6 @@ export default {
             if (!a_knocked_out) return -1;
             if (!b_knocked_out) return 1;
           });
-
 
         var final_place = 4;
         var prize = 0;
