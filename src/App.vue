@@ -407,7 +407,7 @@ export default {
           for (var i = 0; i < self.top_three_teams.length; i++) {
             if (person.teams.indexOf(self.top_three_teams[i]) >= 0) {
               final_place = Math.min(final_place, i + 1);
-              prize += this.prize_amounts[i];
+              prize += self.prize_amounts[i];
             }
           }
         }
