@@ -249,13 +249,6 @@ export default {
   },
   created: function () {
     this.fetch_matches();
-    // var self = this,
-    //     req = new XMLHttpRequest();
-    // req.addEventListener("load", function(e) {
-    //     self.load_matches(JSON.parse(this.responseText));
-    // });
-    // req.open("GET", "matches.json");
-    // req.send();
   },
   methods: {
     async fetch_matches() {
